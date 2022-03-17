@@ -1,0 +1,379 @@
+html{
+    font-family: Arial;
+    background-color: rgba(121, 127, 211, 0.295);
+}
+/*Nav bar*/
+nav{
+    width:100%;
+    padding:20px;
+    background-image:url("img/blanc1.png");
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 9999;
+    display: flex;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.425);
+}
+.icone{
+    color: white;
+}
+
+#corps{
+    margin-top: 11%;
+}
+
+.bienvenue{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 0px;
+    box-shadow: inset 1px 1px 5px rgb(57, 63, 65), inset -1px -1px 5px rgb(95, 98, 99), 1px 1px 5px rgb(108, 111, 112), -1px -1px 5px rgb(128, 137, 139);
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+    background-color: rgb(228, 216, 216);
+    backdrop-filter: blur(3px);
+}
+.bienvenue>div{
+    
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+
+.quiNousSomme{
+    border: 1px solid rgb(57, 170, 204);
+    width: 80%;
+    height: 100%;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 5px rgb(57, 170, 204), inset -1px -1px 5px rgb(57, 170, 204), 1px 1px 5px rgb(57, 170, 204), -1px -1px 5px rgb(57, 170, 204);
+    font-weight: 600;
+    font-size: x-large;
+}
+#ensemble{
+    margin-left: 20%;
+    width: 800px;
+    height:400px;
+}
+
+
+.services{
+    margin-top:30px;
+    padding: 5px;
+    height: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid rgb(57, 170, 204);
+    background-color: rgb(124, 180, 197);
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    box-shadow: inset 1px 1px 5px rgb(57, 170, 204), inset -1px -1px 5px rgb(57, 170, 204), 1px 1px 5px rgb(57, 170, 204), -1px -1px 5px rgb(57, 170, 204);
+    font-size: x-large;
+}
+
+.formation_parte{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 0%;
+    height: 400px;
+    margin-bottom: 2%;
+}
+.emsemble{
+    margin:10px;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 5px rgb(57, 170, 204), inset -1px -1px 5px rgb(57, 170, 204), 1px 1px 5px rgb(57, 170, 204), -1px -1px 5px rgb(57, 170, 204);
+   
+}
+.text_part{
+    width: 500px;
+    height: 385px;
+    margin-top: 10px;
+    margin-left: 3px;
+    border-left: 5px solid rgb(57, 170, 204);
+    padding: 10px;
+    padding-top: 10%;
+    padding-left: 2%;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: x-large;
+    
+}
+.service{
+    margin-top:40px;
+    padding: 5px;
+    height: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid rgb(57, 170, 204);
+    background-color: rgb(124, 180, 197);
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    box-shadow: inset 1px 1px 5px rgb(57, 170, 204), inset -1px -1px 5px rgb(57, 170, 204), 1px 1px 5px rgb(57, 170, 204), -1px -1px 5px rgb(57, 170, 204);
+    font-size: x-large;
+}
+.mmdiv{
+    margin-bottom: 60px;
+}
+
+
+
+
+.slogant_zone{
+    width:50%;
+    text-align: center;
+    margin-left: 25%;
+    color:rgb(57, 170, 204);
+    background-color: rgba(255, 255, 255, 0.062);
+    backdrop-filter: blur(3px);
+    word-spacing: 10px; 
+    text-shadow: 5px 5px 3px  black;
+}
+.slogant_zone>h6{
+    color:black
+}
+.site_logo{
+    width:150px;
+    height: 133px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+footer{
+    background-color: rgb(51, 49, 49);
+    background-size: cover;
+}
+.info_zone, .sponsor_zone{
+    display:flex;
+}
+.info_zone>div{
+    width:20%;
+    margin:auto;
+    margin-top:30px;
+    background-color: white;
+    backdrop-filter: blur(3px);
+    border:1px solid white;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 5px rgb(217, 217, 230), inset -1px -1px 5px rgb(218, 218, 231), 1px 1px 5px rgb(221, 221, 233), -1px -1px 5px rgb(205, 205, 228);
+    padding: 5px;
+    color:black;
+    text-align: center;
+}
+.sponsor_zone{
+    flex-wrap: wrap;
+    margin-top: 5px;
+    padding:20px;
+    padding-top: 10px;
+}
+.sponsor_zone>img{
+    height: 50px;
+    width:70px;
+    margin: auto;
+    margin-bottom: 2%; 
+    border-radius:5px;
+}
+
+
+
+
+@media (max-width:35cm) {
+    #corps{
+        margin-top: 33%;
+    }
+
+    nav{
+        width:100%;
+        height: 300px;
+        padding:20px;
+        padding-bottom: 20px;
+        margin-bottom: 90px;
+        position: fixed;
+        top:0;
+        left:0;
+        z-index: 9999;
+        display: flex;
+        box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.425);
+    }
+
+    .formation_parte{
+        display: block;
+        margin-left: 2%;
+        margin-top: 0%;
+        height: 100%;
+        margin-bottom: 2%;
+    }
+    .text_part{
+        width: 98%;
+        height: 100%;
+        margin-left: 1px;
+        border-left: 10px solid rgb(57, 170, 204);
+        border-right: 10px solid rgb(57, 170, 204);
+        text-align: center;
+        font-size: 70px;
+        font-weight: bolder;
+        word-spacing: 4px;
+        
+    
+    }
+    .emsemble{
+        margin-left:1px;
+        width: 98%;
+        height:800px;
+        border-radius: 15px;
+        box-shadow: inset 1px 1px 5px rgb(57, 170, 204), inset -1px -1px 5px rgb(57, 170, 204), 1px 1px 5px rgb(57, 170, 204), -1px -1px 5px rgb(57, 170, 204);
+    }
+    .services{
+        margin-top:40px;
+        font-size: 60px;;
+    }
+
+    .service{
+        font-size:large;
+        font-size: 60px;;
+    }
+
+    .info_zone{
+        display:block;
+        padding-top: 5px;
+    }
+    .info_zone>div{
+        width:90%;
+    }
+
+
+    .bienvenue{
+        margin-top: 2%;
+        margin-bottom: 4%;
+    
+    }
+    .bienvenue>div{
+        font-size: 80px;
+        margin-top: 10px;
+}
+
+.site_logo{
+    height: 300px;
+    width: 240px;
+}
+.slogant_zone{
+    width:80%;
+    text-align: center;
+    margin-left: 0%;
+   
+    word-spacing: 0px; 
+    font-size: 10px;
+}
+.slogant_zone>strong>h1{
+    font-size: 80px;
+}
+.slogant_zone>h4{
+    font-size: 50px;
+    font-weight: bolder;
+   margin-top: -1.5%;
+  
+}
+
+.quiNousSomme{
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 60px;
+    text-align:center;
+}
+#ensemble{
+    margin-left: 1%;
+    /* margin-right: 0%; */
+    width: 98%;
+    height:800px;
+    margin-top: 4%;
+}
+
+#contacte{
+   width: 89%;
+   margin-left: 11%;
+ }
+.icone{
+    display: none;
+    
+}
+.icon{
+    display: none;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.LesImages .icone .icon{
+    display: flex;
+}
+#LesImages1{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+     background-color: white; 
+     /* margin-left: 50px;  */
+    } 
+    #LesImages2 ,#LesImages3,#LesImages4 {
+        margin-left: 80px;
+        width:120px;
+        height:120px;
+        border-radius: 50%;
+         background-color: white;
+    }
+#LesImages{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+     background-color: white; 
+      margin-left: 10%;
+    } 
+#img{
+    border-radius: 15%;
+    width: 150px;
+    height: 100px;
+}
+}
+/*Media query*/
+@media (max-width:35cm) {
+    .slogant_zone>h1{
+        font-size: 20px;
+    }
+    .info_zone{
+        display:block;
+    }
+    .info_zone>div{
+        width:90%;
+    }
+}
+
+
+/*NOUS CONTACTER*/
+.contacte{
+    display: flex;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 8px;
+    margin-left: 30%;
+    font-weight: bolder;
+}
+.LesImages .icone .icon{
+padding-left: 1%;
+}
+
+
+.LesImages{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+     background-color: white; 
+     margin-left: 15px; 
+
+}
